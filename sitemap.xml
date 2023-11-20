@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://metafivd.com/index.html</loc>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+    <lastmod>2023-11-20</lastmod>
+  </url>
+
+  <!-- Facebook Video Downloader Page -->
+  <url>
+    <loc>https://metafivd.com/facebook-video-downloader.html</loc>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+    <lastmod>2023-11-20</lastmod>
+  </url>
+
+  <!-- Instagram Video Downloader Page -->
+  <url>
+    <loc>https://metafivd.com/instagram-video-downloader.html</loc>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+    <lastmod>2023-11-20</lastmod>
+  </url>
+
+  <!-- Terms of Service Page -->
+  <url>
+    <loc>https://metafivd.com/terms-of-service.html</loc>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2023-11-20</lastmod>
+  </url>
+
+  <!-- Privacy Page -->
+  <url>
+    <loc>https://metafivd.com/privacy.html</loc>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2023-11-20</lastmod>
+  </url>
+
+  <!-- Contact Us Page -->
+  <url>
+    <loc>https://metafivd.com/contact-us.html</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2023-11-20</lastmod>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://metafivd.com/about.html</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2023-11-20</lastmod>
+  </url>
+
+</urlset>
