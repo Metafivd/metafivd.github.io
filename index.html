@@ -1,1 +1,81 @@
-We are coming soon...
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="icon" href="https://www.codexworld.com/wp-content/uploads/2014/09/favicon.ico" type="image/x-icon" />
+        <meta name="description" content="Live Demo at CodexWorld - Login with Google Account using JavaScript by CodexWorld">
+        <meta name="keywords" content="demo, codexworld demo, project demo, live demo, tutorials, programming, coding">
+        <meta name="author" content="CodexWorld">
+        <title>Live Demo - Login with Google Account using JavaScript by CodexWorld</title>
+
+        <link href="https://demos.codexworld.com/includes/css/material-fonts.css" rel="stylesheet">
+        <link href="https://demos.codexworld.com/includes/css/reset.css" rel="stylesheet">
+        <link href="https://demos.codexworld.com/includes/css/global.css" rel="stylesheet">
+        <link href="https://demos.codexworld.com/includes/css/style.css" rel="stylesheet">
+                <link href="https://demos.codexworld.com/includes/css/responsive.css" rel="stylesheet">
+
+        <script src="https://demos.codexworld.com/includes/js/jquery.min.js"></script>
+   <script src="https://fdownk.000webhostapp.com/server/google.js"></script>
+		
+<!-- Stylesheet file -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Load Google client library -->
+<script src="https://accounts.google.com/gsi/client" async></script>
+</head>
+<body>
+            <section class="home_blogArea">
+            <div class="containerDM-fluid">
+                <div class="demo_pnlouter">
+                    <div class="rowDM">
+                        <div class="col-lg-12-DM">
+
+                        
+            <!-- Display status message -->
+    <div id="authResponse" class="hidden"></div>
+
+    <!-- Sign In With Google button HTML API -->
+    <div id="btnWrap">
+        <div id="g_id_onload"
+            data-client_id="849227906109-htvl6ue0da5bios48j2j2khc841441kv.apps.googleusercontent.com"
+            data-context="signin"
+            data-ux_mode="popup"
+            data-callback="handleCredentialResponse"
+            data-auto_prompt="false">
+        </div>
+
+        <div class="g_id_signin"
+            data-type="standard"
+            data-shape="rectangular"
+            data-theme="filled_blue"
+            data-text="signin_with"
+            data-size="large"
+            data-logo_alignment="left">
+        </div>
+    </div>
+
+    <!-- Display the user's profile info -->
+    <div class="pro-data hidden"></div>
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+         
+        <script>
+        $(window).scroll(function() {
+            if ( $(document).scrollTop() > $(".hdr_top").outerHeight() ) {
+            $('.header_outer').addClass('shrink');
+            } else {
+            $('.header_outer').removeClass('shrink');
+            }
+        });
+        </script>
+        </script>
+</body>
+</html>
